@@ -4,6 +4,11 @@
     width: 500px;
     overflow: hidden;
 }
+.mySlides 
+{
+    display: none
+}
+
 .img
 {
    display: inline-flex;
@@ -25,14 +30,15 @@
       
     }
     #aright
-   {
-        margin-left: 300px;
+    {
+        margin-left: 325px;
         padding-top: 50vh;
         padding-bottom: 50vh;
         padding-left: 5vw;
-   }
+    }
    position:absolute;
    bottom: 3px;
+   cursor: pointer;
    :hover
    {
         background-color: rgba(0,0,0,0.8);
