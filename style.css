@@ -1,0 +1,46 @@
+.list_img
+{
+    margin-left: 30vw;
+    width: 500px;
+    overflow: hidden;
+}
+.img
+{
+   display: inline-flex;
+   height: 100vh;
+   img
+   {
+    width: 500px;
+   }
+}
+.arrow
+{
+    #aleft
+    {
+        margin-left: 5px;
+        padding-top: 50vh;
+        padding-bottom: 50vh;
+        padding-right: 5vw;
+        box-sizing: border-box;
+      
+    }
+    #aright
+   {
+        margin-left: 300px;
+        padding-top: 50vh;
+        padding-bottom: 50vh;
+        padding-left: 5vw;
+   }
+   position:absolute;
+   bottom: 3px;
+   :hover
+   {
+        background-color: rgba(0,0,0,0.8);
+   }
+}
+.dot
+{
+    position:absolute;
+    top: 78vw;
+    left: 57vw;
+}
